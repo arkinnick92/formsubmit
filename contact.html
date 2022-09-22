@@ -165,6 +165,9 @@
     #nameContainer {
       margin-top: 30px;
     }
+    #messageId {
+      color: black;
+    }
     #buttonContainer input[type=submit] {
       background-color: #5eb293;
       background-image: url("images/web-banner.png");
@@ -323,11 +326,11 @@
       <h3>Contact</h3>
         <div id="nameContainer" class="textInput">
         <label for="nameId">Name *</label>
-        <input type="text" id="nameId" name="name">
+        <input type="text" id="nameId" name="name" required>
       </div>
       <div id="emailContainer" class="textInput">
         <label for="emailId">Email Adress *</label>
-        <input type="text" id="emailId" name="email">
+        <input type="text" id="emailId" name="email" required>
       </div>
       <div id="messageContainer" class="textInput">
         <label for="messageId">Message *</label>
